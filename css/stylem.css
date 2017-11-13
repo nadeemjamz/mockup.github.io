@@ -1,0 +1,20 @@
+/* hr styles */
+
+hr.style1{
+	border-top: 3px solid #00BA6E;
+}
+
+hr.style2{
+	border-top:3px solid #00BEFF;
+}
+
+h1,h2,h3{
+	font-family: 'Merriweather', serif;
+}
+
+h4,h5,h6{
+	font-family: 'PT Serif', serif;
+}
+p{
+	font-family: 'PT Serif', serif;
+}

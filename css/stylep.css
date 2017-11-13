@@ -1,0 +1,140 @@
+body, html{
+	height:100%;
+	margin:0;
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color:#666;
+}
+
+p{
+	font-family: 'Montez', cursive;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto Slab', serif;
+}
+
+.pimg1, .pimg2, .pimg3{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* 
+	fixed=parallax
+	scroll=normal
+	*/
+	background-attachment: fixed;
+}
+
+.pimg1 {
+	background-image: url('../img/para/img4.jpeg');
+	min-height: 90%;
+}
+
+.pimg2 {
+	background-image: url('../img/para/img2.jpeg');
+	min-height: 400px;
+}
+
+.pimg3 {
+	background-image: url('../img/para/img3.jpeg');
+	min-height: 400px;
+}
+
+.section{
+	
+	padding:50px 80px;
+}
+
+.section-light{
+	background-color:#B9FFFF;
+	color:black;
+}
+
+.section-dark{
+	background-color:#E5E8D4;
+	color:black;
+}
+
+.section-dark1{
+	background-color:#DCE8EC;
+	color:black;
+}
+
+.ptext{
+	position: absolute;
+	top:50%;
+	width:100%;
+	text-align: center;
+	color:#000;
+
+	text-transform: uppercase;
+}
+
+
+
+.ptext .border.trans{
+	background-color: transparent;
+}
+
+
+
+/*
+HR STYLES
+*/
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+
+
+
+hr.style4 {
+	border-top: 2px dotted #8c8b8b;
+}
+
+/*
+MAP
+*/
+.container{
+  width: 100%;
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+#map_container{
+  position: relative;
+}
+#map{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
+textarea
+
+{
+
+	width: 300px;
+	height:130px;
+
+}
